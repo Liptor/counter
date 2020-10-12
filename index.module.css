@@ -1,0 +1,77 @@
+body {
+    background: url(buttons/Background.png) center center no-repeat;
+    position: relative;
+    width: 1440px;
+    height: 768px;
+}
+
+.counterBlock {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 603px;
+    top: 170px;
+    bottom: 298px;
+    right: 537px;
+
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.counter {
+    position: absolute;
+    width: 169px;
+    height: 176px;
+    left: 65px;
+    top: 62px;
+    bottom: 62px;
+    right: 66px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 176px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.plusBlock {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 617px;
+    top: 504px;
+    bottom: 199px;
+    right: 758px;
+
+    background: #089C20;
+    border-radius: 4px;
+}
+
+.minusBlock {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 720px;
+    top: 504px;
+    bottom: 199px;
+    right: 655px;
+
+    background: #E7AA10;
+    border-radius: 4px;
+}
+
+.resetBlock {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 824px;
+    top: 504px;
+    bottom: 199px;
+    right: 551px;
+
+    background: #CF1C1C;
+    border-radius: 4px;
+}
